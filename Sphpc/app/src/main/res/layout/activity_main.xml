@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"  tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <TextView
+        android:id="@+id/main_page_picture_block"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:text="This is a reserved place"
+        android:layout_marginTop="10dp"
+        android:onClick="pictureClicked"/>
+
+    <TextView
+        android:id="@+id/main_page_1_block"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/main_page_line1"
+        android:onClick="block1Clicked"/>
+    <TextView
+        android:id="@+id/main_page_2_block"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/main_page_line2"
+        android:onClick="block2Clicked"/>
+    <TextView
+        android:id="@+id/main_page_3_block"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/main_page_line3"
+        android:onClick="block3Clicked"/>
+    <TextView
+        android:id="@+id/main_page_4_block"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/main_page_line4"
+        android:onClick="block4Clicked"/>
+    <TextView
+        android:id="@+id/main_page_5_block"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/main_page_line5"
+        android:onClick="block5Clicked"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="@string/our_branch"
+        android:gravity="center"/>
+
+
+
+
+
+</LinearLayout>

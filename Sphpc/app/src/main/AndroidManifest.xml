@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sphpc.sphpc" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Modelisation"
+            android:label="@string/title_activity_modelisation"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".Simulation"
+            android:label="@string/title_activity_simulation"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".AccountManagement"
+            android:label="@string/title_activity_account_management"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".HelpAndTips"
+            android:label="@string/title_activity_help_and_tips"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".MainActivity">
+        </activity>
+    </application>
+
+</manifest>

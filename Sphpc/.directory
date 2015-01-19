@@ -1,0 +1,9 @@
+[Dolphin]
+SortRole=type
+Timestamp=2015,1,19,23,36,3
+Version=3
+ViewMode=1
+VisibleRoles=Compact_text
+
+[Settings]
+HiddenFilesShown=true
