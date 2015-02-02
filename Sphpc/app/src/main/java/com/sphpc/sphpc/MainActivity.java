@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -15,11 +16,16 @@ public class MainActivity extends ActionBarActivity {
     public final static String extraMessage3 = "extraMessage3";
     public final static String extraMessage4 = "extraMessage4";
     public final static String extraMessage5 = "extraMessage5";
+    public final static String STOCK_SYMBOL = "com.sphpc.sphpc.stockSymbol";
+
+    private EditText companyNameEditText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        companyNameEditText = (EditText) findViewById(R.id.stockSymbolEditText);
     }
 
 
@@ -55,9 +61,10 @@ public class MainActivity extends ActionBarActivity {
         startActivity(intent);
 
     }
-    public void block2Clicked(View view){
+    public void simulationClicked(View view){
         Intent intent = new Intent(this, Simulation.class);
-        intent.putExtra(extraMessage2, "block2");
+        String companyName = companyNameEditText.getText().toString();
+        intent.putExtra(STOCK_SYMBOL, companyName);
         startActivity(intent);
 
     }

@@ -1,4 +1,4 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -8,5 +8,95 @@
 
     <TextView android:text="This is the simulation page" android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
 
-</RelativeLayout>
+        <TextView
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/stock_days_low"
+            android:id="@+id/daysLowTextView"
+            android:layout_column="5"
+            android:autoText="false" />
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/stock_days_high"
+            android:id="@+id/daysHighTextView"
+            android:layout_column="15" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/stock_year_low"
+            android:id="@+id/yearLowTextView"
+            android:layout_column="5" />
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/stock_year_high"
+            android:id="@+id/yearHighTextView"
+            android:layout_column="15" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/last_trade_price_only"
+            android:id="@+id/lastPriceTextView"
+            android:layout_column="5" />
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/change"
+            android:id="@+id/changeTextView"
+            android:layout_column="15" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/days_range"
+            android:id="@+id/dailyPriceRangeTextView"
+            android:layout_column="5" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/stock_company_name"
+            android:id="@+id/companyNameTextView"
+            android:layout_column="5" />
+    </TableRow>
+
+</TableLayout>

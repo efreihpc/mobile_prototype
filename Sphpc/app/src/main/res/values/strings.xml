@@ -16,4 +16,16 @@
     <string name="title_activity_help_and_tips">HelpAndTips</string>
     <string name="title_activity_about">About</string>
 
+    <!-- for simulation test-->
+    <string name="yahoo_stock_url">http://finance.yahoo.com/q?s=</string>
+    <string name="stock_company_name">Company Name:</string>
+    <string name="stock_year_low">Year Low:</string>
+    <string name="stock_year_high">Year High:</string>
+    <string name="stock_days_low">Days Low:</string>
+    <string name="stock_days_high">Days High:</string>
+    <string name="title_activity_stock_info">StockInfoActivity:</string>
+    <string name="last_trade_price_only">Last Price:</string>
+    <string name="change">Change:</string>
+    <string name="days_range">Daily Price Range:</string>
+    <!-- end of simulation test-->
 </resources>

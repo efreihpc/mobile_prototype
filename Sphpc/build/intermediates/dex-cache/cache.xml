@@ -2,32 +2,32 @@
 <items version="2" >
 
     <item
-        jar="/home/ci/AndroidStudioProjects/Sphpc/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="/home/ci/AndroidStudioProjects/Sphpc/app/build/intermediates/pre-dexed/debug/classes-395d6bc488866f8d130d06857ff7f8fe39540976.jar" />
-    </item>
-    <item
-        jar="/home/ci/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="/home/ci/AndroidStudioProjects/Sphpc/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-8cc628ecd14edeefaec1edf92d4fd6ae67e45a67.jar" />
-    </item>
-    <item
-        jar="/home/ci/AndroidStudioProjects/Sphpc/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jar="/Users/Cedric/mobile_prototype/Sphpc/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/home/ci/AndroidStudioProjects/Sphpc/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-7caf6d527eadfbf35da708a8db9e3f06acfdc6ef.jar" />
+        <dex dex="/Users/Cedric/mobile_prototype/Sphpc/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-e79d5d24aef81f54a14aa430429066f24f25c6fa.jar" />
     </item>
     <item
-        jar="/home/ci/AndroidStudioProjects/Sphpc/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jar="/Applications/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/Cedric/mobile_prototype/Sphpc/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-fa100554894d48afbb0ad0851f92cc333d0a6051.jar" />
+    </item>
+    <item
+        jar="/Users/Cedric/mobile_prototype/Sphpc/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/Cedric/mobile_prototype/Sphpc/app/build/intermediates/pre-dexed/debug/classes-78b7e658e44b023db605ae39fc31a2596f51fe3c.jar" />
+    </item>
+    <item
+        jar="/Users/Cedric/mobile_prototype/Sphpc/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/home/ci/AndroidStudioProjects/Sphpc/app/build/intermediates/pre-dexed/debug/classes-62e4b9acfc160179a634d5fec5fc40bd105c19f1.jar" />
+        <dex dex="/Users/Cedric/mobile_prototype/Sphpc/app/build/intermediates/pre-dexed/debug/classes-7820e974009c9a2cbb0abf3ed6697ae63a8280c6.jar" />
     </item>
 
 </items>

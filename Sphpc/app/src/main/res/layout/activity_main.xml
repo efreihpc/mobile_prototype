@@ -26,7 +26,15 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:text="@string/main_page_line2"
-        android:onClick="block2Clicked"/>
+        android:onClick="simulationClicked"/>
+
+    <!-- simulation test -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/stockSymbolEditText"
+        android:hint="company stock symbol"/>
+    <!-- end of simulation test -->
     <TextView
         android:id="@+id/main_page_3_block"
         android:layout_width="fill_parent"
