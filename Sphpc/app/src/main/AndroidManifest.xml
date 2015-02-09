@@ -41,6 +41,10 @@
             android:label="@string/title_activity_about"
             android:parentActivityName=".MainActivity">
         </activity>
+        <activity android:name=".StockInputActivity"
+            android:label="StockInput"
+            android:parentActivityName=".MainActivity">
+        </activity>
     </application>
 
 </manifest>

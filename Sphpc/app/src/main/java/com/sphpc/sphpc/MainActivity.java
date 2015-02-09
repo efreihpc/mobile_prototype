@@ -23,9 +23,9 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main2);
 
-        companyNameEditText = (EditText) findViewById(R.id.stockSymbolEditText);
+        //companyNameEditText = (EditText) findViewById(R.id.stockSymbolEditText);
     }
 
 
@@ -55,32 +55,33 @@ public class MainActivity extends ActionBarActivity {
 
     }
 
-    public void block1Clicked(View view){
+    public void modelizationClicked(View view){
         Intent intent = new Intent(this, Modelisation.class);
         intent.putExtra(extraMessage1, "block1");
         startActivity(intent);
 
     }
     public void simulationClicked(View view){
-        Intent intent = new Intent(this, Simulation.class);
-        String companyName = companyNameEditText.getText().toString();
-        intent.putExtra(STOCK_SYMBOL, companyName);
+        Intent intent = new Intent(this,StockInputActivity.class);
+//        Intent intent = new Intent(this, Simulation.class);
+//        String companyName = companyNameEditText.getText().toString();
+//        intent.putExtra(STOCK_SYMBOL, companyName);
         startActivity(intent);
 
     }
-    public void block3Clicked(View view){
+    public void accountClicked(View view){
         Intent intent = new Intent(this, AccountManagement.class);
         intent.putExtra(extraMessage3, "block3");
         startActivity(intent);
 
     }
-    public void block4Clicked(View view){
+    public void helpClicked(View view){
         Intent intent = new Intent(this, HelpAndTips.class);
         intent.putExtra(extraMessage4, "block4");
         startActivity(intent);
 
     }
-    public void block5Clicked(View view){
+    public void informationClicked(View view){
         Intent intent = new Intent(this, About.class);
         intent.putExtra(extraMessage5, "block5");
         startActivity(intent);

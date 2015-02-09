@@ -15,6 +15,8 @@
     <string name="title_activity_account_management">AccountManagement</string>
     <string name="title_activity_help_and_tips">HelpAndTips</string>
     <string name="title_activity_about">About</string>
+    <string name="stock_hint_text">Company Stock Symbol</string>
+    <string name="app_title">Stock Monster</string>
 
     <!-- for simulation test-->
     <string name="yahoo_stock_url">http://finance.yahoo.com/q?s=</string>

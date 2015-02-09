@@ -19,7 +19,7 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:text="@string/main_page_line1"
-        android:onClick="block1Clicked"/>
+        android:onClick="modelizationClicked"/>
     <TextView
         android:id="@+id/main_page_2_block"
         android:layout_width="fill_parent"
@@ -33,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/stockSymbolEditText"
-        android:hint="company stock symbol"/>
+        android:hint="@string/stock_hint_text"/>
     <!-- end of simulation test -->
     <TextView
         android:id="@+id/main_page_3_block"
@@ -41,21 +41,21 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:text="@string/main_page_line3"
-        android:onClick="block3Clicked"/>
+        android:onClick="accountClicked"/>
     <TextView
         android:id="@+id/main_page_4_block"
         android:layout_width="fill_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:text="@string/main_page_line4"
-        android:onClick="block4Clicked"/>
+        android:onClick="helpClicked"/>
     <TextView
         android:id="@+id/main_page_5_block"
         android:layout_width="fill_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:text="@string/main_page_line5"
-        android:onClick="block5Clicked"/>
+        android:onClick="informationClicked"/>
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="50dp"
